@@ -1,0 +1,54 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    line-height: 1.5;
+}
+
+/* Utility   */
+
+.none {
+    display: none !important;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* Grid */
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.container-wight {
+    width: 1536px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1399px) {
+    .container {
+        width: 100%;
+
+    }
+
+}
+
+@media (max-width: 991px) {
+    body {
+        font-size: 16px;
+    }
+}

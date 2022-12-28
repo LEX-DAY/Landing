@@ -1,0 +1,38 @@
+.footer {
+    background-color: #245852;
+    color: #fff;
+    padding: 104px 0 80px;
+}
+
+.footer-logo + * {
+    margin-top: 74px;
+}
+
+.footer-nav {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-nav li + li {
+    margin-top: 60px;
+}
+
+.footer-nav a {
+    transition: opacity 0.2s easy;
+}
+
+.footer-nav a:hover {
+    opacity: 0.8;
+
+}
+
+.footer-autor {
+    margin-top: 60px;
+    
+}
+
+.footer-autor p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
